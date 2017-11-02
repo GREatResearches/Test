@@ -1,0 +1,36 @@
+{
+   "position":0,
+   
+   "testCases":[
+      {
+         "id":1,
+         "contextState":{
+         	"battery":"isBatteryMedium"
+         }
+         ,
+         "expectedFeatureStatus":{
+             "Video":true,
+             "PDF":true
+         },
+         "actualFeatureStatus":{
+             "Video":false,
+             "PDF":false
+         }
+      },
+      {
+         "id":2,
+         "contextState":{
+         	"battery":"isBatteryLow"
+         }
+         ,
+         "expectedFeatureStatus":{
+             "Video":false,
+             "PDF":true
+         },
+         "actualFeatureStatus":{
+             "Video":false,
+             "PDF":false
+         }
+      }
+   ]
+}

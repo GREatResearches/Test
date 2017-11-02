@@ -1,0 +1,15 @@
+{
+	"testSequencePath":"C:\\Users\\Erick\\Documents\\control_test_sequence.json",
+	
+	"testReportPath":"C:\\Users\\Erick\\Documents",
+	
+	"featuresAvaliable":["Video", "PDF"],
+	
+	"contextDomain":{	
+		"Battery":{
+			"isBatteryFull":"100",
+           	"isBatteryMedium":"50",
+           	"isBatteryLow":"20"
+		}
+	}
+}
